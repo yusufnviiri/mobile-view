@@ -7,10 +7,9 @@
   border: 1px solid white;
   border-bottom-left-radius: 7em;
   max-width: 400px;
-  padding-left: 20px;
 }
 
-main {
+.wrapper {
   background-color: #f2f4f8;
   max-width: 400px;
   margin: auto;
@@ -21,12 +20,13 @@ body {
   font-family: sans-serif;
 }
 
-.header-wrapper {
+header {
   display: flex;
   justify-content: space-between;
   max-width: 356px;
   padding-top: 30px;
   padding-bottom: 10%;
+  padding-left: 25px;
   padding-right: 25px;
   background-color: white;
 }
@@ -64,6 +64,7 @@ h1 {
   padding-right: 3em;
   padding-top: 1.6em;
   padding-bottom: 1px;
+  padding-left: 25px;
   margin-bottom: 20px;
   margin-top: 2px;
   color: #172b4d;
@@ -75,6 +76,7 @@ p {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
+  padding-left: 25px;
   padding-right: 25px;
   padding-top: 1px;
   margin-top: 1px;
