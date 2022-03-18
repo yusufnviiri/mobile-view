@@ -31,9 +31,9 @@ This project is about creating a mobile view of my personal portifolio
 
 ### :MAN: Yusuf Nviiri
 
--GitHub: @yusufnviiri
--Twitter:@YNviiri
--LinkedIn: yusuf nviiri
+-GitHub: https://github.com/yusufnviiri
+-Twitter:https://twitter.com/YNviiri
+-LinkedIn: https://www.linkedin.com/in/yusuf-nviiri-8b4146206/
 
 ### :handshake: Contributing
 

@@ -9,7 +9,7 @@
   max-width: 400px;
 }
 
-.wrapper {
+header {
   background-color: #f2f4f8;
   max-width: 400px;
   margin: auto;
@@ -20,7 +20,7 @@ body {
   font-family: sans-serif;
 }
 
-header {
+.header-wrapper {
   display: flex;
   justify-content: space-between;
   max-width: 356px;
