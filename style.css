@@ -761,11 +761,10 @@ input::placeholder {
 #mark {
   background-color: #0d151e;
   height: 6px;
-  margin-top: 2em;
   width: 150px;
   border-radius: 5px;
-  justify-self: center;
-  align-self: center;
+  margin: auto;
+  margin-top: 2em;
 }
 
 footer {

@@ -9,7 +9,7 @@ This project is about creating a mobile view of my personal portifolio
 
 ## setup to access the project
 
-> To get a local copy up and running follow these simple example steps.
+> To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
@@ -27,23 +27,22 @@ This project is about creating a mobile view of my personal portifolio
 -open style.css to see the CSS styles used in the project.
 -enjoy
 
-## Author
-
-### :man: Yusuf Nviiri
+## 👤Author
+### 👤 Yusuf Nviiri
 
 -GitHub: [@yusufnviiri](https://github.com/yusufnviiri)
 -Twitter: [@YNviiri](https://twitter.com/YNviiri)
 -LinkedIn: [yusufnviiri]( https://www.linkedin.com/in/yusuf-nviiri-8b4146206/)
 
-### :handshake: Contributing
+### 🤝 Contributing
 
 Contributions,code reviews and feature requests are all welcome
 
 ### Show your support
 
-Give a star if you liked this project
+Give a ⭐️ if you liked this project
 
-### :memo: License $ copyright
+### 📝 License $ copyright
 
 
 This project is [MIT licensed](LICENSE).
