@@ -43,6 +43,7 @@ Contributions,code reviews and feature requests are all welcome
 
 Give a star if you liked this project
 
-### :memo: License
+### :memo: License &copyright
+
 
 This project is [MIT licensed](LICENSE).
