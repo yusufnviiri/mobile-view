@@ -9,7 +9,7 @@ This project is about creating a mobile view of my personal portifolio
 
 ## setup to access the project
 
-> To get a local copy up and running follow these simple example steps.
+> To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
@@ -17,32 +17,32 @@ This project is about creating a mobile view of my personal portifolio
 -code editor
 -Git
 
-### Setup
+### setup to access the project
 
 (go to the terminal in the code editor and put the following git commands)
 -git init
 -git clone https://github.com/yusufnviiri/mobile-view.git
--cd portifolio-mobile
+-cd mobile-view
 -open index.html in the editor/browser to view the project contents
 -open style.css to see the CSS styles used in the project.
 -enjoy
 
-## Author
+## 👤Author
+### 👤 Yusuf Nviiri
 
-### :MAN: Yusuf Nviiri
+-GitHub: [@yusufnviiri](https://github.com/yusufnviiri)
+-Twitter: [@YNviiri](https://twitter.com/YNviiri)
+-LinkedIn: [yusufnviiri]( https://www.linkedin.com/in/yusuf-nviiri-8b4146206/)
 
--GitHub: https://github.com/yusufnviiri
--Twitter:https://twitter.com/YNviiri
--LinkedIn: https://www.linkedin.com/in/yusuf-nviiri-8b4146206/
-
-### :handshake: Contributing
+### 🤝 Contributing
 
 Contributions,code reviews and feature requests are all welcome
 
 ### Show your support
 
-Give a star if you liked this project
+Give a ⭐️ if you liked this project
 
-### :memo: License
+### 📝 License $ copyright
 
-This project is MIT licensed.
+
+This project is [MIT licensed](LICENSE).
