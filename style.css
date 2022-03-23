@@ -744,7 +744,6 @@ input::placeholder {
   color: #172b4d;
   padding-left: 20px;
   font-size: large;
-  text-align: center;
 }
 
 ::placeholder {

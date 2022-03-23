@@ -45,4 +45,4 @@ Give a star if you liked this project
 
 ### :memo: License
 
-This project is MIT licensed.
+This project is [MIT licensed](LICENSE).
