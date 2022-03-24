@@ -88,11 +88,14 @@ p {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
-  padding-left: 25px;
   padding-right: 25px;
   padding-top: 1px;
   margin-top: 1px;
   color: #344563;
+}
+
+.wrapper1 p {
+  margin-left: 25px;
 }
 
 #connect {
@@ -776,7 +779,7 @@ footer {
   background-color: white;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 968px) {
   nav > ul {
     display: flex;
     list-style: none;
@@ -793,7 +796,8 @@ footer {
     max-width: 100%;
     background-color: #e5e5e5;
     background-color: #f2f4f8;
-    margin: 0.0001px 90px 0.0001px 90px;
+    margin: 0.0001px 8vw 0.0001px 8vw;
+    min-width: 900px;
   }
 
   .wrapper1 {
@@ -809,7 +813,8 @@ footer {
     max-width: 100%;
     padding-bottom: 1px;
     background-color: #f2f4f8;
-    margin: 40px 20px 90px 20px;
+    margin: 0.0001%;
+    margin-bottom: 50px;
   }
 
   #menu1 {
@@ -903,7 +908,7 @@ footer {
     background-repeat: no-repeat;
     border-top-left-radius: 150px;
     width: 100%;
-    padding: 0.0001%  0.0001% 50px 0.0001%;
+    padding: 0.0001% 0.0001% 50px 0.0001%;
   }
 
   .tonic p {
@@ -987,6 +992,10 @@ footer {
     text-decoration: none;
   }
 
+  .logo > a {
+    margin-left: 7vw;
+  }
+
   .languages > ul {
     display: flex;
     flex-direction: column;
@@ -1048,7 +1057,7 @@ footer {
   #skill {
     position: absolute;
     left: 75%;
-    top: 285px;
+    top: 283px;
   }
 
   .languages {
@@ -1071,7 +1080,7 @@ footer {
   }
 
   .parag p {
-    font-size: 20px;
+    font-size: 18px;
     color: #ebebff;
     padding-bottom: 15px;
     padding-left: 0%;
