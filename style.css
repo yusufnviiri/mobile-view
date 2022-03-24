@@ -88,11 +88,14 @@ p {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
-  padding-left: 25px;
   padding-right: 25px;
   padding-top: 1px;
   margin-top: 1px;
   color: #344563;
+}
+
+.wrapper1 p {
+  margin-left: 25px;
 }
 
 #connect {
@@ -290,6 +293,11 @@ p {
   color: #344563;
   position: relative;
   top: 1px;
+}
+
+.tonic-desktop,
+.tonic-desktop1 {
+  display: none;
 }
 
 .tonic p {
@@ -769,4 +777,377 @@ input::placeholder {
 
 footer {
   background-color: white;
+}
+
+@media only screen and (min-width: 968px) {
+  nav > ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-right: 10px;
+  }
+
+  body {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .wrapper {
+    max-width: 100%;
+    background-color: #e5e5e5;
+    background-color: #f2f4f8;
+    margin: 0.0001px 8vw 0.0001px 8vw;
+    min-width: 900px;
+  }
+
+  .wrapper1 {
+    max-width: 100%;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    margin: 0.0001px 0.0001px 0.0001px 0.0001px;
+    z-index: 1;
+  }
+
+  .wrapper2 {
+    position: relative;
+    max-width: 100%;
+    padding-bottom: 1px;
+    background-color: #f2f4f8;
+    margin: 0.0001%;
+    margin-bottom: 50px;
+  }
+
+  #menu1 {
+    display: none;
+  }
+
+  header {
+    max-width: 90%;
+  }
+
+  h1 {
+    max-width: 280px;
+  }
+
+  p {
+    max-width: 65%;
+  }
+
+  .tonic-desktop {
+    display: flex;
+    max-width: 85%;
+    justify-content: space-between;
+    margin: auto;
+    padding-left: 30px;
+    border: 1px solid #dfe1e6;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 60px;
+    padding-right: 20px;
+  }
+
+  .tonic-desktop1 {
+    display: flex;
+    max-width: 85%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: auto;
+    padding-left: 30px;
+    border: 1px solid #dfe1e6;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 60px;
+    padding-right: 20px;
+  }
+
+  .tonic-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    background-color: white;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-bottom: 40px;
+  }
+
+  .tonic-content1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    background-color: white;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-bottom: 40px;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: row;
+    min-width: 358px;
+    border-top-right-radius: 150px;
+    width: 100%;
+    padding: 0.00001%;
+    padding-bottom: 100px;
+    padding-top: 50px;
+  }
+
+  .abt {
+    padding-bottom: 20px;
+    margin: 0.00001%;
+  }
+
+  .contact-form {
+    justify-content: center;
+    align-content: center;
+    background-size: 96% 100%;
+    align-items: center;
+    min-width: 358px;
+    flex-direction: column;
+    background-color: #6070ff;
+    background-image: url(images/bgc3.png);
+    background-repeat: no-repeat;
+    border-top-left-radius: 150px;
+    width: 100%;
+    padding: 0.0001% 0.0001% 50px 0.0001%;
+  }
+
+  .tonic p {
+    width: 100%;
+  }
+
+  .cont-right {
+    width: 50%;
+  }
+
+  .cont-right1 {
+    width: 50%;
+  }
+
+  .cont-right2 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .cont-left {
+    width: 50%;
+  }
+
+  .imagez img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .imagez1 {
+    width: 100%;
+    padding: 20px 0.1px 20px 0.1px;
+  }
+
+  .imagez3 {
+    width: 100%;
+    padding: 20px 0.1px 20px 0.1px;
+  }
+
+  .imagez1 img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .imagez {
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .tonic {
+    display: none;
+  }
+
+  .content-right {
+    position: relative;
+    left: -120px;
+    flex-grow: 4;
+  }
+
+  .content-left {
+    max-width: 45%;
+    margin-left: 90px;
+  }
+
+  .content-left p {
+    font-size: 15px;
+  }
+
+  .hidden33 img {
+    display: inline;
+    position: relative;
+    left: 30%;
+    top: 40%;
+  }
+
+  nav > ul > a > li {
+    padding-left: 20px;
+    color: #344563;
+  }
+
+  nav > ul > a {
+    text-decoration: none;
+  }
+
+  .logo > a {
+    margin-left: 7vw;
+  }
+
+  .languages > ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0%;
+    margin-left: 0%;
+  }
+
+  .languages li a img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .languages1 {
+    display: flex;
+  }
+
+  .languages1 ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .languages1 ul li a {
+    padding-right: 15px;
+  }
+
+  .languages1 ul li a img {
+    width: 5vw;
+  }
+
+  .frame-skill li {
+    list-style: none;
+  }
+
+  #menu2 {
+    display: flex;
+  }
+
+  #menu2 li {
+    padding-right: 20px;
+  }
+
+  #menu2 li a {
+    text-decoration: none;
+    color: #344563;
+  }
+
+  #language {
+    position: absolute;
+    left: 65%;
+    top: 30px;
+  }
+
+  #fram {
+    position: absolute;
+    left: 75%;
+    top: 210px;
+  }
+
+  #skill {
+    position: absolute;
+    left: 75%;
+    top: 283px;
+  }
+
+  .languages {
+    display: none;
+  }
+
+  .contact-form h2 {
+    font-size: 50px;
+    margin-left: 0%;
+  }
+
+  .data1 {
+    width: 100%;
+  }
+
+  .parag {
+    width: 80%;
+    position: relative;
+    left: 36px;
+  }
+
+  .parag p {
+    font-size: 18px;
+    color: #ebebff;
+    padding-bottom: 15px;
+    padding-left: 0%;
+    margin-left: 21%;
+    width: 45%;
+    text-align: center;
+  }
+
+  .data1 input {
+    height: 50px;
+    position: relative;
+    border-radius: 1px;
+    width: 130%;
+    border-color: #cfd8dc;
+    border-style: none;
+    margin-bottom: 20px;
+    left: -20%;
+  }
+
+  textarea {
+    border-color: #cfd8dc;
+    width: 130%;
+    border-style: none;
+    margin-bottom: 20px;
+    position: relative;
+    left: -20%;
+    border-radius: 0.1px;
+  }
+
+  #mark {
+    display: none;
+  }
+
+  .contact-form button {
+    width: 160px;
+    margin-left: 17%;
+    height: 45px;
+  }
+
+  .buttonx {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 270px;
+    padding-left: 0%;
+    margin-left: 0%;
+  }
+
+  .buttonx1 {
+    display: none;
+  }
+
+  .buttonx button {
+    color: #6070ff;
+    height: 25px;
+    border-radius: 8px;
+    border-color: #ebebff;
+    background-color: #ebebff;
+    border-style: none;
+  }
+
+  .details {
+    padding-left: 200px;
+    background-image: url(images/bg22.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 800px 370px;
+    padding-top: 0.5em;
+  }
 }
