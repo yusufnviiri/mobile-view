@@ -53,11 +53,6 @@ header {
   font-size: larger;
   text-decoration: none;
   transition: all 0.5s ease-out;
-  transform: rotate(45%);
-}
-
-.logo > a:hover {
-  background-color: green;
 }
 
 .details {
@@ -649,6 +644,10 @@ button:hover {
   padding-bottom: 22px;
   padding-top: 22px;
   left: 3px;
+}
+
+.logo > a:hover {
+  background-color: green;
 }
 
 #profiler a {
