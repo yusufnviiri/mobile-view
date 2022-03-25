@@ -52,6 +52,11 @@ header {
   font-weight: bolder;
   font-size: larger;
   text-decoration: none;
+  transition: all 0.5s ease-out;
+}
+
+.logo > a:hover {
+  background-color: green;
 }
 
 .details {
