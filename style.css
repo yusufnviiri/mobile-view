@@ -52,6 +52,7 @@ header {
   font-weight: bolder;
   font-size: larger;
   text-decoration: none;
+  transition: all 0.5s ease-out;
 }
 
 .details {
@@ -645,6 +646,10 @@ button:hover {
   left: 3px;
 }
 
+.logo > a:hover {
+  background-color: green;
+}
+
 #profiler a {
   text-decoration: none;
   color: black;
@@ -1136,7 +1141,7 @@ footer {
   .buttonx button {
     color: #6070ff;
     height: 25px;
-    border-radius: 8px;
+    border-radius: 9px;
     border-color: #ebebff;
     background-color: #ebebff;
     border-style: none;
