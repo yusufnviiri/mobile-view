@@ -8,8 +8,9 @@ This project is about creating a mobile view of my personal portifolio
 -CSS
 
 ## Demo
-
 [Personal-Portifolio](https://yusufnviiri.github.io/mobile-view/)
+
+
 ## setup to access the project
 
 > To get a local copy up and running follow these simple steps.
