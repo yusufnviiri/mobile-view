@@ -17,6 +17,12 @@ noMenu.addEventListener('click',close);
  
 function theme(){    
     menu3.style.display='flex';
-    mainMenu.style.top = '0'; 
-       
+    mainMenu.style.top = '0';       
 }
+function close(){
+              menu3.style.top='-100%'
+              menu3.style.width='50%';
+              window.setTimeout(function(){window.location.reload()},5000);
+              
+}
+             
