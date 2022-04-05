@@ -786,32 +786,32 @@ footer {
 
 #menu3 {
   height: 100vh;
+  top: -15px;
   position: fixed;
-  top: 0;
-  right: 0;
+  right: 20px;
   left: 0;
   z-index: 3;
-  width: 100%;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  transition: top 4s ease;
+  align-items: flex-start;
+  transition: top 1s ease;
+  margin-left: 10%;
+  margin-right: 10%;
   display: none;
-  background-image: url(images/Overlay.png);
-  background-repeat: no-repeat;
-  background-size: cover;
- 
+  background: #6070ffe6;
+  backdrop-filter: blur(4px);
 }
 
 #menu3 li {
   padding: 5px;
   padding-left: 2px;
-  margin: auto;
-  margin: 10px;
   font-size: 20px;
   color: white;
+  margin-bottom: 20px;
   text-decoration: none;
   list-style: none;
+  position: relative;
+  top: -150px;
 }
 
 #menu3 li a {
@@ -825,13 +825,18 @@ footer {
   cursor: pointer;
 }
 
-#noMenu{
+#noMenu {
   position: relative;
-  right: -200px;
+  right: -300px;
 }
 
-
 @media only screen and (min-width: 968px) {
+  #menu3 {
+    display: block;
+    position: absolute;
+    top: -200%;
+  }
+
   nav > ul {
     display: flex;
     list-style: none;
