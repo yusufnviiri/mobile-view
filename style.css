@@ -784,7 +784,59 @@ footer {
   background-color: white;
 }
 
+#menu3 {
+  height: 100vh;
+  top: -15px;
+  position: fixed;
+  right: 20px;
+  left: 0;
+  z-index: 3;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  transition: top 1s ease;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: none;
+  background: #6070ffe6;
+  backdrop-filter: blur(4px);
+}
+
+#menu3 li {
+  padding: 5px;
+  padding-left: 2px;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 20px;
+  text-decoration: none;
+  list-style: none;
+  position: relative;
+  top: -150px;
+}
+
+#menu3 li a {
+  text-decoration: none;
+  color: white;
+}
+
+#menu11 {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#noMenu {
+  position: relative;
+  right: -300px;
+}
+
 @media only screen and (min-width: 968px) {
+  #menu3 {
+    display: block;
+    position: absolute;
+    top: -210%;
+  }
+
   nav > ul {
     display: flex;
     list-style: none;
