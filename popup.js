@@ -126,3 +126,140 @@ const uber = {
 
               deskImag: 'images/uber2.png'
 };
+
+var mobileWrap = document.querySelector(".mobileWrap");
+mobileDetail = document.querySelector(".mobileDetail");
+var mobileHeading = document.querySelector(".mobileHeading");
+var mobList1 = document.querySelector(".mobList1");
+var mobList2 = document.querySelector(".mobList2");
+var mobList3 = document.querySelector(".mobList3");
+var project1 = document.querySelector("#project1");
+var project2 = document.querySelector("#project2");
+var project3 = document.querySelector("#project3");
+var project4 = document.querySelector("#project4");
+var mobilepara = document.querySelector(".mobilepara");
+var mobileListA = document.querySelector(".mobileListA");
+var mobileListB = document.querySelector(".mobileListB");
+var mobileListC = document.querySelector(".mobileListC");
+var mobileButtons = document.querySelector(".mobileButtons");
+var seeLive = document.querySelector("#seeLive");
+var seeSource = document.querySelector("#seeSource");
+var liveLinkM = document.querySelector("#liveLinkM");
+var sourceLinkM = document.querySelector("#sourceLinkM");
+var mobImag = document.querySelector('.mobImag');
+let paraMobile = ` Lorem Ipsum is simply dummy text of the printing and 
+typesetting industry. Lorem Ipsum has been the industry's standard dummy 
+text ever since the 1500s, when an unknown printer took a galley of type 
+and scrambled it to make a type specimen book. It has survived 
+not only five centuries, but also the leap into electronic typesetting,
+ remaining essent.`;
+
+var mobileProjects = ['html', 'css', 'javascript'];
+
+
+sourceLinkM.href = 'https://github.com/yusufnviiri/mobile-view.git';
+liveLinkM.href = 'https://yusufnviiri.github.io/mobile-view/';
+
+
+function showTonicMobile() {
+              mobileWrap.style.display = "block";
+              mobileHeading.innerHTML = mobtonic.mobileHeading;
+              mobList1.innerHTML = mobtonic.mobList1;
+              mobList2.innerHTML = mobtonic.mobList2;
+              mobList3.innerHTML = mobtonic.mobList3;
+              mobilepara.innerHTML = paraMobile;
+              mobileListA.innerHTML = mobileProjects[0];
+              mobileListB.innerHTML = mobileProjects[1];
+              mobileListC.innerHTML = mobileProjects[2];
+              mobImag.src = mobtonic.mobImag;
+}
+function showTonicMobile1() {
+              mobileWrap.style.display = "block";
+              mobileHeading.innerHTML = mobtonic.mobileHeading;
+              mobList1.innerHTML = mobtonic.mobList1;
+              mobList2.innerHTML = mobtonic.mobList2;
+              mobList3.innerHTML = mobtonic.mobList3;
+              mobilepara.innerHTML = paraMobile;
+              mobileListA.innerHTML = mobileProjects[0];
+              mobileListB.innerHTML = mobileProjects[1];
+              mobileListC.innerHTML = mobileProjects[2];
+              mobImag.src = 'images/snap1.png'
+              mobileButtons.style.position = 'absolute';
+              mobileButtons.style.left = '0';
+              mobileButtons.style.top = '25px  ';
+
+              mobileHeading.style.fontSize = '20px';
+              mobileHeading.style.width = '70%';
+
+
+}
+
+
+
+
+
+function closeTonicMob() {
+              mobileWrap.style.display = "none ";
+              tonicDesk.style.margin = "auto";
+              mobileWrap.style.top = "0%";
+}
+
+const mobtonic = {
+              mobileHeading: "Tonic",
+              mobList1: "Cannopy",
+              mobList2: "Back End Dev",
+              mobList3: "2015",
+              mobImag: 'images/snap.png'
+};
+
+function showMultipostMobile() {
+              mobileWrap.style.display = "block";
+              mobileHeading.innerHTML = mobMultipost.mobileHeading;
+              mobList1.innerHTML = mobMultipost.mobList1;
+              mobList2.innerHTML = mobMultipost.mobList2;
+              mobList3.innerHTML = mobMultipost.mobList3;
+              mobilepara.innerHTML = paraMobile;
+              mobileListA.innerHTML = mobileProjects[0];
+              mobileListB.innerHTML = mobileProjects[1];
+              mobileListC.innerHTML = mobileProjects[2];
+              mobImag.src = mobMultipost.mobImag;
+              mobileHeading.style.fontSize = '28px';
+              mobileHeading.style.width = '70%';
+              mobileButtons.style.left = '0px';
+              mobileHeading.style.margin = '0px';
+              mobileButtons.style.top = '80px';
+              mobileButtons.style.width = '1000%';
+              mobileButtons.style.position = 'absolute';
+              ;
+}
+
+function showMultipostMobile2() {
+              mobileWrap.style.display = "block";
+              mobileHeading.innerHTML = mobMultipost.mobileHeading;
+              mobList1.innerHTML = mobMultipost.mobList1;
+              mobList2.innerHTML = mobMultipost.mobList2;
+              mobList3.innerHTML = mobMultipost.mobList3;
+              mobilepara.innerHTML = paraMobile;
+              mobileListA.innerHTML = mobileProjects[0];
+              mobileListB.innerHTML = mobileProjects[1];
+              mobileListC.innerHTML = mobileProjects[2];
+              mobImag.src = 'images/story.png ';
+              mobileHeading.style.fontSize = '28px';
+              mobileHeading.style.width = '70%';
+              mobileHeading.style.top = '-20px ';
+              mobileButtons.style.left = '0px';
+              mobileHeading.style.margin = '0px';
+              mobileButtons.style.top = '60px';
+              mobileButtons.style.width = '100%';
+              mobileButtons.style.position = 'absolute';
+
+}
+
+
+const mobMultipost = {
+              mobileHeading: "Multi-post Stories",
+              mobList1: "Cannopy",
+              mobList2: "Back End Dev",
+              mobList3: "2015",
+              mobImag: 'images/snap3.png'
+};
