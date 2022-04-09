@@ -819,6 +819,10 @@ footer {
   border-radius: 10px;
   color: #6070ff;
   margin-bottom: 15px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 5px;
+  padding-bottom: 3px;
 }
 
 .mobileButtons {
@@ -1108,13 +1112,13 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 80%;
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 50px;
     background-color: white;
-    margin-left: 1px;
     border-radius: 1rem;
+    margin: auto;
     margin-top: 1rem;
     margin-bottom: 1.5rem;
   }
@@ -1144,7 +1148,8 @@ footer {
 
   .deskImag {
     width: 100%;
-    height: auto;
+    height: 50vh;
+    margin-bottom: 20px;
   }
 
   nav > ul > a > li {

@@ -5,7 +5,7 @@ const codeButton = 'https://github.com/yusufnviiri/mobile-view.git';
 const portfolio = [
   {
     name: 'Tonic',
-    image: 'images/tonic1.png',
+    image: 'images/pop.png',
     name2: 'Tonic',
     image2: 'images/snap.png',
     description: ` Lorem Ipsum is simply dummy text of the printing and
@@ -29,7 +29,7 @@ const portfolio = [
   },
   {
     name: 'Multi-Post Stories',
-    image: 'images/multi2.png',
+    image: 'images/multip.png',
     name2: 'Multi-Post Stories',
     image2: 'images/story.png',
     description: ` Lorem Ipsum is simply dummy text of the printing and
@@ -54,7 +54,7 @@ const portfolio = [
   {
     name: 'Facebook 360',
     name2: 'Tonic',
-    image: 'images/portcard.png',
+    image: 'images/facebpp.png',
     image2: 'images/snap1.png',
     description: ` Lorem Ipsum is simply dummy text of the printing and
               typesetting industry. Lorem Ipsum has been the industry's
@@ -80,7 +80,7 @@ const portfolio = [
     name: 'Uber Navigation',
     name2: 'Multi-Post Stories',
     image2: 'images/snap3.png',
-    image: 'images/uber2.png',
+    image: 'images/uberp.png',
     description: ` Lorem Ipsum is simply dummy text of the printing and
               typesetting industry. Lorem Ipsum has been the industry's
               standard dummy text ever since the 1500s, when an unknown
