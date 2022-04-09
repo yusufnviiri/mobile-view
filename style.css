@@ -377,9 +377,35 @@ button:hover {
   color: #6070ff;
 }
 
-.contact-form button:hover {
+.seeLiveMob button,
+.seeSource button {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #6070ff;
+  position: relative;
+  line-height: 24px;
+  letter-spacing: 3%;
+  background-color: white;
+  border: 1px solid #4053fc;
+}
+
+.seeLiveMob button:hover {
   background-color: #6070ff;
   color: white;
+  border-radius: 10px;
+}
+
+.seeSource button:hover {
+  background-color: #6070ff;
+  color: white;
+  border-radius: 10px;
 }
 
 .hidden button:hover {
@@ -410,6 +436,11 @@ button:hover {
 }
 
 .hidden4 button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.contact-form button:hover {
   background-color: #6070ff;
   color: white;
 }
@@ -506,12 +537,6 @@ button:hover {
   list-style: none;
 }
 
-.languages1 ul li {
-  list-style: none;
-  position: relative;
-  left: -35px;
-}
-
 #language {
   position: absolute;
   left: 65%;
@@ -531,6 +556,11 @@ button:hover {
 }
 
 .frame-skill a {
+  text-decoration: none;
+}
+
+.seeLiveMob a,
+.seeSource a {
   text-decoration: none;
 }
 
@@ -710,18 +740,6 @@ footer {
   backdrop-filter: blur(4px);
 }
 
-#menu3 li {
-  padding: 5px;
-  padding-left: 2px;
-  font-size: 20px;
-  color: white;
-  margin-bottom: 20px;
-  text-decoration: none;
-  list-style: none;
-  position: relative;
-  top: -150px;
-}
-
 #menu3 li a {
   text-decoration: none;
   color: white;
@@ -759,7 +777,6 @@ footer {
   z-index: 5;
   height: 100%;
   position: fixed;
-
   top: 0%;
   left: 0%;
   max-width: 450px;
@@ -779,6 +796,7 @@ footer {
   width: 90%;
   padding-top: 20px;
 }
+
 .mobileIntro h2 {
   font-size: 20px;
   width: 100%;
@@ -790,6 +808,7 @@ footer {
   flex-direction: column;
   width: 90%;
 }
+
 .mobButtonlist {
   display: flex;
   list-style: none;
@@ -808,6 +827,7 @@ footer {
   padding-left: 0%;
   margin-left: 0%;
 }
+
 .mobileButtons li {
   margin-right: 20px;
   font-size: 13px;
@@ -819,30 +839,6 @@ footer {
   color: #344563;
   position: relative;
   top: 1px;
-  color: black;
-}
-.mobileDetail img {
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
-.mobButtonlist li {
-  color: #6070ff;
-  height: 25px;
-  border-radius: 9px;
-  border-color: #ebebff;
-  background-color: #ebebff;
-  border-style: none;
-  margin-right: 10px;
-  margin-top: 10px;
-  font-weight: 400;
-  padding: 10px 10px 25px 10px;
-
-  background: #ebebff;
-  border-radius: 10px;
-  color: #6070ff;
-
-  padding: 1px 5px;
-  margin-bottom: 15px;
 }
 
 .seeLiveMob,
@@ -858,51 +854,18 @@ footer {
   margin-right: 10px;
   letter-spacing: 3%;
 }
+
 .separaterMob {
   display: flex;
   padding-bottom: 30px;
 }
+
 .seeLiveMob img,
 .seeSource img {
   height: 20px;
   position: inherit;
   top: 0%;
   width: 10%;
-}
-.seeLiveMob button,
-.seeSource button {
-  display: flex;
-  justify-content: space-around;
-  height: 100%;
-  width: 100%;
-  align-items: center;
-
-  border-radius: 10px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  color: #6070ff;
-  position: relative;
-  line-height: 24px;
-  letter-spacing: 3%;
-  background-color: white;
-  border: 1px solid #4053fc;
-}
-
-.seeLiveMob button:hover {
-  background-color: #6070ff;
-  color: white;
-  border-radius: 10px;
-}
-
-.seeSource button:hover {
-  background-color: #6070ff;
-  color: white;
-  border-radius: 10px;
-}
-.seeLiveMob a,
-.seeSource a {
-  text-decoration: none;
 }
 
 .button {
@@ -913,6 +876,7 @@ footer {
   padding-left: 0%;
   margin-left: 0%;
 }
+
 .button li {
   color: #6070ff;
   padding-left: 10px;
@@ -923,6 +887,24 @@ footer {
   margin-right: 20px;
   width: fit-content;
   background-color: #ebebff;
+}
+
+.languages1 ul li {
+  list-style: none;
+  position: relative;
+  left: -35px;
+}
+
+#menu3 li {
+  padding: 5px;
+  padding-left: 2px;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 20px;
+  text-decoration: none;
+  list-style: none;
+  position: relative;
+  top: -150px;
 }
 
 .tonic-h2 {
@@ -953,6 +935,7 @@ footer {
 .desktopheadline {
   display: none;
 }
+
 .mobileCard,
 .mobileheadline {
   display: block;
@@ -968,6 +951,7 @@ footer {
   color: #172b4d;
   position: relative;
 }
+
 #bullet {
   height: 7px;
   position: relative;
@@ -975,6 +959,7 @@ footer {
   top: 25px;
   margin-right: 10px;
 }
+
 #bullet2 {
   height: 7px;
   position: absolute;
@@ -1005,23 +990,6 @@ footer {
 }
 
 @media only screen and (min-width: 968px) {
-  .image-left {
-    display: flex;
-    padding-top: 3em;
-    max-width: 90%;
-    padding-right: 1px;
-    margin-bottom: 50px;
-    border: 1px solid #dfe1e6;
-    border-radius: 20px;
-    background-color: white;
-    justify-content: center;
-    flex-direction: row;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    align-items: center;
-    background-color: yellow;
-  }
-
   .image-right {
     max-width: 85%;
     flex-direction: row-reverse;
@@ -1034,6 +1002,17 @@ footer {
     padding-right: 20px;
     align-items: stretch;
     justify-content: stretch;
+  }
+
+  .content-right {
+    position: relative;
+    left: -120px;
+    flex-grow: 4;
+  }
+
+  .content-left {
+    max-width: 45%;
+    margin-left: 90px;
   }
 
   .image-right .content-right {
@@ -1074,12 +1053,12 @@ footer {
 
   .mobile {
     background-color: red;
-    display: n;
   }
 
   #prof {
     display: none;
   }
+
   .mobileCard,
   .mobileheadline {
     display: none;
@@ -1095,6 +1074,7 @@ footer {
   .button {
     display: none;
   }
+
   .buttonx1 {
     display: flex;
     list-style: none;
@@ -1105,6 +1085,63 @@ footer {
     position: relative;
     left: -50px;
   }
+
+  .closeProj {
+    z-index: 1000;
+  }
+
+  #mobileWrap {
+    display: none;
+  }
+
+  .mobileDetail {
+    display: none;
+  }
+
+  /* desktop popup */
+
+  .desktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding-top: 100px;
+    padding-left: 50px;
+    background-color: white;
+    margin-left: 9%;
+  }
+
+  #sectionWrap {
+    top: -10px;
+    left: -50px;
+    right: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: auto;
+    display: none;
+    position: fixed;
+    border: 1px solid rgb(247, 247, 247);
+    border-radius: 1rem;
+    z-index: 10;
+    width: 125.6rem;
+    max-width: 90%;
+    height: 100vh;
+    background-color: #c1c7d0cf;
+    backdrop-filter: blur(3px);
+  }
+
+  .deskImag {
+    width: 70%;
+    height: 50vh;
+    margin-left: 10%;
+  }
+
+  nav > ul > a > li {
+    padding-left: 20px;
+    color: #344563;
+  }
+
   .buttonx1 li {
     color: #6070ff;
     padding-left: 10px;
@@ -1117,54 +1154,8 @@ footer {
     background-color: #ebebff;
   }
 
-  .closeProj {
-    z-index: 1000;
-  }
-
-  #mobileWrap {
-    display: none;
-  }
-  .mobileDetail {
-    display: none;
-  }
-  /* desktop popup */
-  .desktop {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    padding-top: 100px;
-    padding-left: 50px;
-    background-color: white;
-    margin-left: 9%;
-  }
-  #sectionWrap {
-    top: -10px;
-    left: -50px;
-    right: 0;
-    margin-left: 10%;
-    margin-right: 10%;
-    background: #c9cadae6;
-    background-color: #c1c7d0;
-    backdrop-filter: blur(1px);
-    overflow: auto;
-    display: none;
-    position: fixed;
-    border: 1px solid rgb(247, 247, 247);
-    border-radius: 1rem;
-    z-index: 10;
-
-    width: 125.6rem;
-    max-width: 90%;
-    height: 100vh;
-    background-color: #c1c7d0cf;
-    backdrop-filter: blur(5px);
-  }
-  .deskImag {
-    width: 70%;
-    height: 50vh;
-    margin-left: 10%;
+  nav > ul > a {
+    text-decoration: none;
   }
 
   .deskButtons {
@@ -1176,6 +1167,7 @@ footer {
     padding-left: 0%;
     margin-left: 0%;
   }
+
   .deskButtons li {
     margin-right: 20px;
     font-size: large;
@@ -1189,6 +1181,7 @@ footer {
     top: 1px;
     padding-right: 30px;
   }
+
   .desktopIntro {
     display: flex;
     position: relative;
@@ -1196,6 +1189,7 @@ footer {
     width: 90%;
     margin-bottom: 50px;
   }
+
   .desktopIntro h2 {
     justify-self: flex-start;
     position: relative;
@@ -1206,6 +1200,7 @@ footer {
     justify-content: space-between;
     width: 90%;
   }
+
   .deskButtonlist {
     display: flex;
     list-style: none;
@@ -1223,24 +1218,25 @@ footer {
   }
 
   .deskButtonlist li {
-    color: #6070ff;
     height: 25px;
-    border-radius: 9px;
     border-color: #ebebff;
     background-color: #ebebff;
     border-style: none;
     margin-right: 10px;
     margin-top: 10px;
     font-weight: 400;
-    padding: 10px 10px 25px 10px;
-
-    background: #ebebff;
     border-radius: 10px;
     color: #6070ff;
-
     padding: 1px 5px;
     margin-bottom: 15px;
   }
+
+  .contact-form button {
+    width: 160px;
+    margin-left: 17%;
+    height: 45px;
+  }
+
   .seeLive,
   .seeSource {
     width: 150px;
@@ -1254,17 +1250,19 @@ footer {
     margin-right: 10px;
     letter-spacing: 3%;
   }
+
   .separater {
     display: flex;
   }
+
   .seeLive img,
   .seeSource img {
     height: 24px;
     position: inherit;
     top: 0%;
-
     width: 10%;
   }
+
   .seeLive button,
   .seeSource button {
     display: flex;
@@ -1284,17 +1282,6 @@ footer {
     letter-spacing: 3%;
   }
 
-  .seeLive button:hover {
-    background-color: #6070ff;
-    color: white;
-    border-radius: 10px;
-  }
-
-  .seeSource button:hover {
-    background-color: #6070ff;
-    color: white;
-    border-radius: 10px;
-  }
   .seeLive a,
   .seeSource a {
     text-decoration: none;
@@ -1366,6 +1353,10 @@ footer {
     max-width: 65%;
   }
 
+  .content-left p {
+    font-size: 15px;
+  }
+
   .about {
     display: flex;
     flex-direction: row;
@@ -1424,35 +1415,11 @@ footer {
     display: none;
   }
 
-  .content-right {
-    position: relative;
-    left: -120px;
-    flex-grow: 4;
-  }
-
-  .content-left {
-    max-width: 45%;
-    margin-left: 90px;
-  }
-
-  .content-left p {
-    font-size: 15px;
-  }
-
   .hidden33 img {
     display: inline;
     position: relative;
     left: 30%;
     top: 40%;
-  }
-
-  nav > ul > a > li {
-    padding-left: 20px;
-    color: #344563;
-  }
-
-  nav > ul > a {
-    text-decoration: none;
   }
 
   .logo > a {
@@ -1466,11 +1433,6 @@ footer {
     margin-left: 0%;
   }
 
-  .languages li a img {
-    width: 100px;
-    height: 100px;
-  }
-
   .languages1 {
     display: flex;
   }
@@ -1480,24 +1442,16 @@ footer {
     flex-direction: row;
   }
 
-  .languages1 ul li a {
-    padding-right: 15px;
-  }
-
-  .languages1 ul li a img {
-    width: 5vw;
-  }
-
   .frame-skill li {
     list-style: none;
   }
 
-  #menu2 {
-    display: flex;
+  .languages1 ul li a {
+    padding-right: 15px;
   }
 
-  #menu2 li {
-    padding-right: 20px;
+  #menu2 {
+    display: flex;
   }
 
   #menu2 li a {
@@ -1577,12 +1531,6 @@ footer {
     display: none;
   }
 
-  .contact-form button {
-    width: 160px;
-    margin-left: 17%;
-    height: 45px;
-  }
-
   .buttonx {
     display: flex;
     list-style: none;
@@ -1608,5 +1556,35 @@ footer {
     background-position: center;
     background-size: 800px 370px;
     padding-top: 0.5em;
+  }
+
+  .mobileDetail img {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .languages li a img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .mobButtonlist li {
+    height: 25px;
+    border-style: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-weight: 400;
+    background-color: #ebebff;
+    border-radius: 10px;
+    color: #6070ff;
+    margin-bottom: 15px;
+  }
+
+  #menu2 li {
+    padding-right: 20px;
+  }
+
+  .languages1 ul li a img {
+    width: 5vw;
   }
 }
