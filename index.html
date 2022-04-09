@@ -18,11 +18,10 @@
       <div class="wrapper1">
         <header>
           <div class="logo"><a href="index.html">My Logo</a></div>
+
           
             <nav>
-              <a href=""   >
-                
-              </a>
+              
               <button id="menu11" onclick="openMenu()"  ><img id="menu1" src="images/menu2.png" alt="menu" /></button>
               <ul id="menu2">
                 <li><a href="" >Portfolio </a></li>
@@ -34,14 +33,15 @@
               
               <ul id="menu3" class="menu3" >
                 
-                <li id="noMenu"><i class="fa fa-times" onclick="closeMenu()"></i></a></i></li>
+                <li id="noMenu"><i class="fa fa-times" onclick="closeMenu()"></i></li>
               
                 <li><a href="#tonicx" onclick="closeMenu()" class="noMenu1">Portfolio </a></li>
+                <li><a href="#abouts" onclick="closeMenu()" class="noMenu1">About </a></li>
+                <li><a href="#contacts" onclick="closeMenu()" class="noMenu1">Contact </a></li></ul>
 
-                <li><a    href="#abouts" onclick="closeMenu()" class="noMenu2">About </a></li>
-  
-                <li><a href="#contacts" onclick="closeMenu()" class="noMenu3">Contact </a></li>
-              </ul>
+         
+           
+            
           </nav>
         </header>
         <div class="details">
@@ -73,278 +73,72 @@
         </div>
       </div>
       <div class="wrapper2">
-        <div class="tonic">
-          <div class="imagez"><img src="images/snap.png" alt="snap" /></div>
-          <h2>Tonic</h2>
+        
+        
 
-          <div>
-            <ul id="profs">
-              <li id="cannopy">CANOPY</li>
-              <li>Back End Dev</li>
-              <li>2015</li>
+        <div id="portfolio" class="works"></div>
+
+        <!-- desktop popup -->
+        <div id="sectionWrap" class="modal">
+          <section class="desktop">
+           <div class="desktopIntro"> <h2 class="deskHeading"></h2>
+            <ul class="deskButtons">
+              <li class="deskList1"  ></li>
+              <li class="deskList2"></li>
+              <li  class="deskList3"></li>
+              
             </ul>
-          </div>
-
-          <div>
-            <p>
-              A daily selection of privately personalized: no accounts or
-              sign-ups required
-            </p>
-          </div>
-          <div>
-            <ul class="button">
-              <li><button>html</button></li>
-              <li><button>css</button></li>
-              <li><button>javascript</button></li>
+            <div class="closeProj"><i class="fa fa-times" onclick="closeall()"></i></div>
+           </div>
+            <div><img src="/images/snap3.png" class="deskImag" alt="project-image"></div>          
+            <div class="desktopFlex">
+            <p class="deskpara"></p>
+            <aside>
+            <ul class="deskButtonlist">
+                           
             </ul>
-          </div>
-
-          <div class="hidden3">
-            <button>See Project</button>
-          </div>
+            <div class="liner"></div>
+            <div class="separater">
+            <div class="seeLive">
+           <a href="" id="liveLink"> see Live <img src="images/live.png" alt="github pages"> </a></div>
+           <div class="seeSource">
+            <a href="" id="sourceLink"> See Source <img src="images/vect1.png" alt="github"> </a></div></div>
+          </aside></div>
+          </section>
         </div>
 
-        <div class="tonic" id="tonicx">
-          <img src="images/story.png" alt="snap" />
-          <h2 id="stories-header">Multi-post Stories</h2>
 
-          <ul id="profs1">
-            <li id="cannopy1">CANOPY</li>
-            <li>Back End Dev</li>
-            <li>2015</li>
-          </ul>
 
-          <p>
-            A daily selection of privately personalized: no accounts or sign-ups
-            required
-          </p>
-          <ul class="button">
-            <li><button>html</button></li>
-            <li><button>css</button></li>
-            <li><button>javascript</button></li>
-          </ul>
-
-          <div class="hidden1">
-            <button>See Project</button>
-          </div>
-        </div>
-
-        <div class="tonic">
-          <div><img src="images/snap1.png" alt="snap" /></div>
-          <div>
-            <h2 id="stories-header1">Tonic</h2>
-          </div>
-
-          <div>
-            <ul id="profs2">
-              <li id="cannopy2">CANOPY</li>
-              <li>Back End Dev</li>
-              <li>2015</li>
-            </ul>
-          </div>
-
-          <div>
-            <p>
-              A daily selection of privately personalized: no accounts or
-              sign-ups required
-            </p>
-          </div>
-          <div>
-            <ul class="button">
-              <li><button>html</button></li>
-              <li><button>css</button></li>
-              <li><button>javascript</button></li>
-            </ul>
-          </div>
-
-          <div class="hidden2"><button>See Project</button></div>
-        </div>
-
-        <div class="tonic">
-          <img src="images/snap3.png" alt="snap" />
-          <h2 id="stories-header2">Multi-post stories</h2>
-
-          <ul id="profs3">
-            <li id="cannopy3">CANOPY</li>
-            <li>Back End Dev</li>
-            <li>2015</li>
-          </ul>
-
-          <p>
-            A daily selection of privately personalized: no accounts or sign-ups
-            required
-          </p>
-          <ul class="button">
-            <li><button>html</button></li>
-            <li><button>css</button></li>
-            <li><button>javascript</button></li>
-          </ul>
-          <div class="hidden3">
-            <button>See Project</button>
-          </div>
-        </div>
-
-        <div class="tonic-desktop">
-          <div class="cont-left">
-            <div class="imagez3">
-              <img src="images/tonic1.png" alt="snap" />
-            </div>
-          </div>
-
-          <div class="tonic-content">
-            <h2>Tonic</h2>
-
-            <div>
-              <ul id="profss">
-                <li id="cannopyy">CANOPY</li>
-                <li>Back End Dev</li>
-                <li>2015</li>
-              </ul>
-            </div>
-            <div>
-              <p>
-                A daily selection of privately personalized: no accounts or
-                sign-ups required
-              </p>
-            </div>
-            <div>
-              <ul class="button">
-                <li><button>html</button></li>
-                <li><button>css</button></li>
-                <li><button>javascript</button></li>
-              </ul>
-            </div>
-
-            <div class="hidden3">
-              <button>See Project</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="tonic-desktop1">
-          <div class="imagez"><img src="images/snap3.png" alt="snap" /></div>
-          <div class="tonic-content">
-            <h2>Multi-post stories</h2>
-
-            <div>
-              <ul class="profs1">
-                <li id="cannopyy1">FACEBOOK</li>
-                <li>Full Stack Dev</li>
-                <li>2015</li>
-              </ul>
-            </div>
-
-            <div>
-              <p>
-                Experimental content creation feature that allows users to add
-                to an existing story over the course of a day without spamming
-                their friends.
-              </p>
-            </div>
-            <div>
-              <ul class="buttonx1">
-                <li><button>html</button></li>
-
-                <li><button>css</button></li>
-                <li><button>javascript</button></li>
-              </ul>
-            </div>
-
-            <div>
-              <ul class="buttonx">
-                <li><button>html</button></li>
-                <li><button>Ruby on rails</button></li>
-                <li><button>css</button></li>
-                <li><button>javascript</button></li>
-              </ul>
-            </div>
-            <div class="hidden3">
-              <button>See Project</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="tonic-desktop">
-          <div class="imagez1"><img src="images/snap.png" alt="snap" /></div>
-          <div class="tonic-content1">
-            <h2>Facebook 360</h2>
-
-            <div>
-              <ul class="profs1">
-                <li id="cannopyy2">FACEBOOK</li>
-                <li>Full Stack Dev</li>
-                <li>2015</li>
-              </ul>
-            </div>
-
-            <div>
-              <p>
-                Exploring the future of media in Facebook's first Virtual
-                Reality app; a place to discover and enjoy 360 photos and videos
-                on Gear VR.
-              </p>
-            </div>
-            <div>
-              <ul class="buttonx1">
-                <li><button>html</button></li>
-
-                <li><button>css</button></li>
-                <li><button>javascript</button></li>
-              </ul>
-            </div>
-
-            <div>
-              <ul class="buttonx">
-                <li><button>html</button></li>
-                <li><button>Ruby on rails</button></li>
-                <li><button>css</button></li>
-                <li><button>javascript</button></li>
-              </ul>
-            </div>
-            <div class="hidden33">
-              <button>See Project</button>
-            </div>
-          </div>
-        </div>
-        <div class="tonic-desktop1">
-          <div class="cont-right1">
-            <div class="imagez1"><img src="images/story.png" alt="snap" /></div>
-          </div>
-
-          <div class="cont-left">
-            <div class="tonic-content2">
-              <h2>Uber Navigation</h2>
-
-              <div>
-                <ul class="profs1">
-                  <li id="cannopyy3">Uber</li>
-                  <li>Lead Developer</li>
-                  <li>2018</li>
-                </ul>
-              </div>
-
-              <div>
-                <p>
-                  A smart assistant to make driving more safe, efficient, and
-                  fun by unlocking your most expensive computer: your car.
-                </p>
-              </div>
-              <div>
-                <ul class="buttonx">
-                  <li><button>html</button></li>
-                  <li><button>Ruby on rails</button></li>
-                  <li><button>css</button></li>
-                  <li><button>javascript</button></li>
-                </ul>
-              </div>
-              <div class="hidden3">
-                <button>See Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
+  <!-- mobile popup -->
+  <div id="mobileWrap" class="modal">
+    <section class="mobileDetail">
+     <div class="mobileIntro"> <h2 class="mobileHeading"></h2>
+      <ul class="mobileButtons">
+        <li class="mobList1"  ></li>
+        <li class="mobList2"></li>
+        <li  class="mobList3"></li>
+        
+      </ul>
+      <div class="closeProj"><i class="fa fa-times" onclick="closeall()"></i></div>
+     </div>
+      <div><img src="images/" class="mobImag" alt="project-image"></div>          
+      <div class="mobileFlex">
+      <p class="mobilepara"></p>
+      <aside>
+      <ul class="mobButtonlist">
+     
+                    
+      </ul>
+      <div class="linerMobile"></div>
+      <div class="separaterMob">
+      <div class="seeLiveMob">
+     <a href="" id="liveLinkM"> see Live <img src="images/live.png" alt="github pages"> </a></div>
+     <div class="seeSource">
+      <a href="" id="sourceLinkM"> See Source <img src="images/vect1.png" alt="github"> </a></div></div>
+    </aside></div>
+    </section>
+  </div>
+  <!-- mobile popup -->
       <div class="abt">
         <div class="about" id="abouts">
           <div class="content-left">
@@ -487,6 +281,11 @@
         </footer>
       </div>
     </div>
+    </div>
+    
+
     <script src="script.js"></script>
+    <script src="popup.js"></script>
+
   </body>
 </html>
