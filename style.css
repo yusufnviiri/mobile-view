@@ -377,8 +377,13 @@ button:hover {
   color: #6070ff;
 }
 
-.seeLiveMob button,
-.seeSource button {
+.frame-skill a {
+  text-decoration: none;
+}
+
+.seeLive a,
+.seeSource a,
+.seeLiveMob a {
   display: flex;
   justify-content: space-around;
   height: 100%;
@@ -396,13 +401,7 @@ button:hover {
   border: 1px solid #4053fc;
 }
 
-.seeLiveMob button:hover {
-  background-color: #6070ff;
-  color: white;
-  border-radius: 10px;
-}
-
-.seeSource button:hover {
+.seeLive a:hover {
   background-color: #6070ff;
   color: white;
   border-radius: 10px;
@@ -553,15 +552,6 @@ button:hover {
   position: absolute;
   left: 75%;
   top: 845px;
-}
-
-.frame-skill a {
-  text-decoration: none;
-}
-
-.seeLiveMob a,
-.seeSource a {
-  text-decoration: none;
 }
 
 #profiler1 {
