@@ -54,7 +54,7 @@ const portfolio = [
   {
     name: 'Facebook 360',
     name2: 'Tonic',
-    image: 'images/snap1.png',
+    image: 'images/portcard.png',
     image2: 'images/snap1.png',
     description: ` Lorem Ipsum is simply dummy text of the printing and
               typesetting industry. Lorem Ipsum has been the industry's

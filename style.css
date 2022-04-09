@@ -1108,36 +1108,43 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    padding-top: 100px;
-    padding-left: 50px;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 50px;
     background-color: white;
-    margin-left: 9%;
+    margin-left: 1px;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
   }
 
   #sectionWrap {
+    box-sizing: border-box;
     top: -10px;
-    left: -50px;
-    right: 0;
-    margin-left: 10%;
-    margin-right: 10%;
-    overflow: auto;
+    margin-right: 10px;
+    left: 0.1px;
+    right: 20%;
+    padding-left: 10px;
     display: none;
     position: fixed;
     border: 1px solid rgb(247, 247, 247);
     border-radius: 1rem;
     z-index: 10;
     width: 125.6rem;
-    max-width: 90%;
+    max-width: 100%;
     height: 100vh;
+    max-height: 102%;
     background-color: #c1c7d0cf;
     backdrop-filter: blur(3px);
+    padding-right: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
   }
 
   .deskImag {
-    width: 70%;
-    height: 50vh;
-    margin-left: 10%;
+    width: 100%;
+    height: auto;
   }
 
   nav > ul > a > li {
